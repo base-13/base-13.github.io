@@ -2,8 +2,6 @@ import crtFilter from './crt.module.css';
 import type { Metadata } from 'next';
 import './globals.css';
 
-const baseURL = 'https://base_13.github.io';
-
 export const metadata: Metadata = {
     title: 'base_13 | Developer Portfolio',
     description: 'Portfolio of base_13',
@@ -27,7 +25,7 @@ export const metadata: Metadata = {
         type: 'profile',
         title: 'base_13 | portfolio',
         siteName: "base_13's portfolio",
-        url: baseURL,
+        url: 'https://base-13.github.io',
         locale: 'en_IN',
     },
 };
