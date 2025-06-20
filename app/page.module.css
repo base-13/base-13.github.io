@@ -1,0 +1,13 @@
+.parent {
+    display: grid;
+    padding: 1em;
+    width: 100dvw;
+    height: auto;
+    min-height: 100dvh;
+}
+
+.infoContainer {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

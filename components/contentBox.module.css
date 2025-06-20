@@ -1,0 +1,40 @@
+.contentBox,
+.titleBox {
+    --content-box-padding-top: 1.7em;
+    --content-box-border-width: 0.3em;
+    --content-box-padding: 1em;
+    --title-box-y-padding: 0.4em;
+    --title-box-height: calc(var(--font-size) + 2 * var(--title-box-y-padding) + 2 * var(--content-box-border-width));
+    --title-box-x-margin: 1em;
+}
+
+.contentBox {
+    display: flex;
+    container-type: inline-size;
+    flex-direction: column;
+    padding: var(--content-box-padding);
+    width: fit-content;
+    max-width: 100%;
+    overflow: hidden;
+    height: 100%;
+    overflow-wrap: break-word;
+    border: var(--content-box-border-width) solid var(--primary-color);
+}
+
+.titleBox {
+    background-color: var(--background);
+    padding: var(--title-box-y-padding) 0.6em;
+    border: solid var(--content-box-border-width) var(--primary-color);
+    position: relative;
+    width: fit-content;
+    height: var(--title-box-height);
+    margin-top: calc(0em - var(--title-box-height) / 2);
+    top: calc(var(--title-box-height) / 2);
+    margin-left: var(--title-box-x-margin);
+    margin-right: var(--title-box-x-margin);
+    z-index: 1;
+
+    + .contentBox {
+        padding-top: var(--content-box-padding-top);
+    }
+}
