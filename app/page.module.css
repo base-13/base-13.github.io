@@ -1,6 +1,6 @@
 .parent {
     display: grid;
-    padding: 1em;
+    padding: 1rem;
     width: 100dvw;
     height: auto;
     min-height: 100dvh;

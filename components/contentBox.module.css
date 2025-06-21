@@ -1,11 +1,11 @@
 .contentBox,
 .titleBox {
-    --content-box-padding-top: 1.7em;
-    --content-box-border-width: 0.3em;
-    --content-box-padding: 1em;
-    --title-box-y-padding: 0.4em;
+    --content-box-padding-top: 1.7rem;
+    --content-box-border-width: 0.3rem;
+    --content-box-padding: 1rem;
+    --title-box-y-padding: 0.4rem;
     --title-box-height: calc(var(--font-size) + 2 * var(--title-box-y-padding) + 2 * var(--content-box-border-width));
-    --title-box-x-margin: 1em;
+    --title-box-x-margin: 1rem;
 }
 
 .contentBox {
@@ -23,12 +23,12 @@
 
 .titleBox {
     background-color: var(--background);
-    padding: var(--title-box-y-padding) 0.6em;
+    padding: var(--title-box-y-padding) 0.6rem;
     border: solid var(--content-box-border-width) var(--primary-color);
     position: relative;
     width: fit-content;
     height: var(--title-box-height);
-    margin-top: calc(0em - var(--title-box-height) / 2);
+    margin-top: calc(0rem - var(--title-box-height) / 2);
     top: calc(var(--title-box-height) / 2);
     margin-left: var(--title-box-x-margin);
     margin-right: var(--title-box-x-margin);
