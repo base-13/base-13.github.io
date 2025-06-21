@@ -2,18 +2,13 @@
     --primary-color: #00b123;
     --primary-text-color: #00ff33;
     --font-size: 20px;
+    --background: #060606;
+    --foreground: #ffffff;
 }
 
 @media screen and (max-width: 500px) {
     :root {
         --font-size: 16px;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #060606;
-        --foreground: #ededed;
     }
 }
 
@@ -55,10 +50,4 @@ a {
 
 a:hover {
     color: var(--primary-text-color);
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
 }
