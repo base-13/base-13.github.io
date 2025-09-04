@@ -1,1 +1,1 @@
-This is a portfolio website, written in Next.JS with TSX.
+This is a portfolio website, written in Plain HTML and CSS.
